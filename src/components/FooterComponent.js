@@ -6,40 +6,28 @@ function Footer(props) {
         <div className="footer">
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-4 offset-1 col-sm-2">
-                        <h5>Links</h5>
-                        <ul className="list-unstyled">
-                            <li><Link to='/home'>Home</Link></li>
-                            <li><Link to='/aboutus'>About Us</Link></li>
-                            <li><Link to='/contactus'>Contact Us</Link></li>
-                        </ul>
+                    <div className="col-4 col-sm-2">
+                        <p>Covid19 Information</p>
                     </div>
-                    <div className="col-7 col-sm-5">
-                        <h5>Our Address</h5>
-                        <address>
-                            H-12, NUST<br />
-		              Islamabad<br />
-		              PAKISTAN<br />
-                            <i className="fa fa-phone fa-lg"></i>: +92 1234 5678<br />
-                            <i className="fa fa-fax fa-lg"></i>: +92 8765 4321<br />
-                            <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:fqazi.bscs18seecs@seecs.edu.pk">
-                                hopload@doc.net</a>
-                        </address>
+                    <div className="col-4 col-sm-2">
+                        <p>Contact Us</p>
                     </div>
-                    <div className="col-12 col-sm-4 align-self-center">
+                    <div className="col-4 col-sm-2">
+                        <p>About Us</p>
+                    </div>
+                    <div className="col-4 col-sm-2">
+                        <p>Privacy Policy</p>
+                        <p>© Copyright 2020 Team ORION</p>
+                    </div>
+
+                    <div className="col-12 col-sm-4">
                         <div className="text-center">
-                            <a className="btn btn-social-icon btn-google" href="http://google.com/+"><i className="fa fa-google-plus"></i></a> GOOGLE
+                            <a className="btn btn-social-icon btn-google" href="http://google.com/+"><i className="fa fa-google-plus"></i></a> PlayStore
+                            <a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube"></i></a> AppStore
                             <a className="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i className="fa fa-facebook"></i></a> FACEBOOK
                             <a className="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i className="fa fa-linkedin"></i></a>
                             <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter"></i></a> TWITTER
-                            <a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube"></i></a> YOUTUBE
-                            <a className="btn btn-social-icon" href="mailto:"><i className="fa fa-envelope-o"></i></a>
                         </div>
-                    </div>
-                </div>
-                <div className="row justify-content-center">
-                    <div className="col-auto">
-                        <p>© Copyright 2020 Team ORION</p>
                     </div>
                 </div>
             </div>

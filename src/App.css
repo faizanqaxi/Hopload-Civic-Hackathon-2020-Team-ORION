@@ -1,3 +1,14 @@
+
+.body {
+  background-color:  #13B9F6;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  
+}
+
 .row-header{
   margin:0px auto;
   padding:0px auto;
@@ -15,6 +26,7 @@
   color:#FFFFFF;
   margin:0px auto;
   padding: 20px 0px 20px 0px;
+  
 }
 .jumbotron {
   padding:70px 30px 70px 30px;
@@ -31,10 +43,89 @@ address{
 
 .navbar-dark {
   background-color: #13B9F6;
+  height: 82px;
 }
 
+.fa-lg {
+  font-size: 30px;
+}
+
+.nav-btn {
+  width: 140px;
+  height: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.nav-btn:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.nav-left {
+  font-size: 30px;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.nav-left span {
+  color:#FFFFFF;
+}
+.nav-left:hover {
+  background-color: #FFFFFF;
+  color: #13B9F6;
+}
+
+.nav-left:hover span {
+  color: #13B9F6;
+}
+
+
+.brandName {
+  font-size: 50px;
+}
 
 .home {
   margin: 0;
   padding: 0;
+  height: 900px;
+  background-image: url("./images/backgroundMaps.PNG");
+  width: 100%;
+}
+
+.space {
+  height: 50px;
+}
+
+.otherclr {
+  color: #13B9F6;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.hospclr {
+  color: #FF624B;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.cliniclr {
+  color: #FFC701;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.labsclr {
+  color: #13B9F6;
+  text-shadow: 2px 2px 4px #000000;
 }

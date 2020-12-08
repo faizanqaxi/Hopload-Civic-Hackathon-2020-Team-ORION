@@ -39,40 +39,46 @@ export default class Header extends Component {
                 <Navbar dark expand="md">
                     <div className="container">
                         <NavbarToggler onClick={this.toggleNav} />
-                        <NavbarBrand className="mr-auto" href="/">
-                            <img src="assets/images/logo.png" height="30" width="41" alt="Hopload" />
-                        </NavbarBrand>
+                        
                         <Collapse isOpen={this.state.isNavOpen} navbar >
 
                             <Nav navbar>
                                 <NavItem>
+                                    <NavLink className="nav-link nav-left" to="/aboutus">
+                                        <span className=""> COVID Stats </span> 
+                                    </NavLink>
+                                </NavItem>
+
+                                <NavItem>
+                                    <NavLink className="nav-link nav-left" to="/contactus">
+                                        <span className=""> COVID Precautions </span> 
+                                    </NavLink>
+                                </NavItem>
+                            </Nav>
+
+                            <NavbarBrand className="mr-auto" href="/">
+                                <img src="assets/images/logo.png" height="120" width="120" alt="Hopload" />
+                            </NavbarBrand>
+
+                            <Nav navbar>
+                                <NavItem>
                                     <NavLink className="nav-link" to="/home">
-                                        <span className="fa fa-home fa-lg"></span> Home
-                                    </NavLink>
-                                </NavItem>
-
-                                <NavItem>
-                                    <NavLink className="nav-link" to="/aboutus">
-                                        <span className="fa fa-info fa-lg"></span> About us
-                                    </NavLink>
-                                </NavItem>
-
-                                <NavItem>
-                                    <NavLink className="nav-link" to="/contactus">
-                                        <span className="fa fa-address-card fa-lg"></span> Contact us
+                                        <span className="brandName"> HOPLOUD </span> 
                                     </NavLink>
                                 </NavItem>
                             </Nav>
                             <Nav className="ml-auto" navbar>
+                                
                                 <NavItem>
-                                    <Button outline onClick={this.toggleModal}>
-                                        <span className="fa fa-sign-in fa-lg">Login</span>
+                                    <Button className="nav-btn" outline onClick={this.toggleModal}>
+                                        <span className="fa fa-sign-in fa-lg">LOGIN</span>
                                     </Button>
                                 </NavItem>
                             </Nav>
                         </Collapse>
                     </div>
                 </Navbar>
+                {/*
                 <Jumbotron>
                     <div className="container">
                         <div className="row row-header">
@@ -82,6 +88,7 @@ export default class Header extends Component {
                         </div>
                     </div>
                 </Jumbotron>
+                */}
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
                     <ModalHeader toggle={this.toggleModal}> Login</ModalHeader>
                     <ModalBody>
