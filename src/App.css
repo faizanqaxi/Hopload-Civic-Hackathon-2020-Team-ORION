@@ -3,6 +3,7 @@
   background-color:  #13B9F6;
   margin: 0px;
   padding: 0px;
+  border: 5px solid black;
 }
 
 .container {
@@ -103,7 +104,10 @@ address{
   padding: 0;
   height: 900px;
   background-image: url("./images/backgroundMaps.PNG");
-  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .space {
@@ -128,4 +132,9 @@ address{
 .labsclr {
   color: #13B9F6;
   text-shadow: 2px 2px 4px #000000;
+}
+
+.container-home {
+  margin: 0px;
+  padding: 0px;
 }
