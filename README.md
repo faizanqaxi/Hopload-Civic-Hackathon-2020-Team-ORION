@@ -2,6 +2,9 @@
 
 This project is for Civic Hackathon 2020 by Code For Pakistan from Team ORION.
 
+Project Proposal Link:
+https://docs.google.com/document/d/1CAmSPAH_jrnbPEnnXcmnVG_jcLM7ze7lkECsAeRbg9A/edit
+
 Web view Prototype Link:
 https://www.figma.com/proto/98CCQJ0QXjlg9KL00NIDDe/hoploud?node-id=18%3A9&scaling=scale-down
 
